@@ -1,0 +1,16 @@
+[Unit]
+Description=Bot de WhatsApp Programado por Telegram
+After=network.target
+
+[Service]
+Type=simple
+User=root
+# Ruta hacia la carpeta de tu proyecto en la VPS
+WorkingDirectory=/root/mi-bot-whatsapp
+# Ruta que ejecuta el python del entorno virtual (venv) apuntando a tu script
+ExecStart=/root/mi-bot-whatsapp/venv/bin/python main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
