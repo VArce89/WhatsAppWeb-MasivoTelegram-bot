@@ -20,7 +20,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # Configuración de Logs
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-TOKEN_TELEGRAM = "TU_TOKEN_DE_TELEGRAM_AQUI"
+TOKEN_TELEGRAM = "8758217114:AAEL8pmzS55ImqC7E7v8_193dGu8tKmtF6I"
 DB_NAME = "campana_whatsapp.db"
 driver = None
 CHAT_ID_ADMIN = None  # Se guardará automáticamente cuando uses /start desde tu celular
