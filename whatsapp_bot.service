@@ -6,9 +6,9 @@ After=network.target
 Type=simple
 User=root
 # Ruta hacia la carpeta de tu proyecto en la VPS
-WorkingDirectory=/root/mi-bot-whatsapp
+WorkingDirectory=/root/WhatsAppWeb-MasivoTelegram-bot
 # Ruta que ejecuta el python del entorno virtual (venv) apuntando a tu script
-ExecStart=/root/mi-bot-whatsapp/venv/bin/python main.py
+ExecStart=/root/WhatsAppWeb-MasivoTelegram-bot/venv/bin/python main.py
 Restart=always
 RestartSec=10
 
